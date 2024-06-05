@@ -31,4 +31,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: Sayan9/guestbook-go-docker:latest
+          tags: sayangiri007@gmail.com/guestbook-go-docker:latest
