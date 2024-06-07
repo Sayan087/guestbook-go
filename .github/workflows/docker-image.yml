@@ -44,5 +44,4 @@ jobs:
       - name: Create kubeconfig
         run: echo "${{ secrets.KUBECONFIG }}" > $HOME/.kube/config
 
-      - name: Deploy to Kubernetes
-        run: kubectl apply -f kubernetes/deployment.yml
+     
